@@ -8,6 +8,14 @@ export const getUsers = async (req: Request, res: Response) => {
     res.send(users)
 }
 
+export const createUser = async (req: Request, res: Response) => {
+    let userData = req.body ;
+    console.log({userData})
+    res.send(userData)
+}
+
+
+
 export const login = (req: Request, res:Response) => {
     const loginRequest: LoginRequest = req.query;
     if (!loginRequest.username || !loginRequest.password) {
