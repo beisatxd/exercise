@@ -40,6 +40,14 @@ export const createUser = async (req: Request, res: Response) => {
     res.send(user)
 }
 
+export const updateUser = (req: Request, res:Response) => {
+    const user: User = req.body
+
+    res.send({
+
+    })
+}
+
 export const login = (req: Request, res:Response) => {
     const loginRequest: LoginRequest = req.query;
     if (!loginRequest.username || !loginRequest.password) {
