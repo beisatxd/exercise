@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .recent-logins {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .recent-logins .recent-logins-box {
+  background-color: #f0f2f5;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+body .recent-logins .recent-logins-box img {
+  width: 180px;
+}
+body .recent-logins .recent-logins-box h1 {
+  font-size: 30px;
+  font-weight: 200;
+  padding-left: 15px;
+}
+body .recent-logins .recent-logins-box p {
+  padding-left: 15px;
+}
+body .recent-logins .recent-logins-box .image-box {
+  display: flex;
+  flex-direction: row;
+}
+body .recent-logins .recent-logins-box .image-box span {
+  width: 150px;
+  height: 200px;
+  background-color: #1877F2;
+  margin: 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .recent-logins .recent-logins-box .image-box span i {
+  font-size: 50px;
+  color: #f0f2f5;
+}
+body .login-form {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .login-form .login-form-box {
+  background-color: #f0f2f5;
+  width: 350px;
+  height: 400px;
+}
+
+/*# sourceMappingURL=style.css.map */
